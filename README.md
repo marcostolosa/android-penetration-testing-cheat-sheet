@@ -58,7 +58,7 @@ My other cheat sheets:
 * [Single File](#single-file)
 * [Multiple Files](#multiple-files)
 * [SQLite 3](#sqlite-3)
-* [Backup](#backup)
+* [Backups](#backups)
 
 **5. [Deeplinks](#5-deeplinks)**
 
@@ -469,7 +469,7 @@ SELECT * FROM sometable;
 .quit
 ```
 
-### Backup
+### Backups
 
 Create a backup:
 
@@ -787,3 +787,4 @@ Don't forget to test widgets, push notifications, app extensions, and Firebase.
 
 * [zxing.org/w/decode.jspx](https://zxing.org/w/decode.jspx) (decode QR codes)
 * [odinforum.com](https://odinforum.com/discussion/11/latest-versions-of-odin-flashing-tool) (firmware flashing tool for Samsung devices)
+* [samfrew.com](https://samfrew.com/) (firmwares for Samsung devices)
