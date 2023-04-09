@@ -758,7 +758,7 @@ d2j-dex2jar base.apk -o base.jar
 Decompile:
 
 ```fundamental
-jadx -j $(grep -c processor /proc/cpuinfo) -d /root/Desktop/source/ /root/Desktop/base.jar
+jadx -j $(grep -c 'processor' /proc/cpuinfo) -d /root/Desktop/source/ /root/Desktop/base.jar
 ```
 
 Make sure to specify a full path to the base.jar (preferred) or [base.apk](#pull-an-apk-baseapk); otherwise, JADX might not recognize it.
