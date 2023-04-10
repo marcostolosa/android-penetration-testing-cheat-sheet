@@ -379,7 +379,7 @@ for keyword in 'access' 'account' 'admin' 'card' 'cer' 'conf' 'cred' 'customer' 
 
 Inspect memory dumps, binaries, files inside [a decompiled APK](#9-decompile-an-apk), or any other files.
 
-After you finish testing, don't forget to download app specific directories using [adb](#downloadupload-files-and-directories) and inspect all the files inside.
+After you finish testing \[and logout\], don't forget to download app specific directories using [adb](#downloadupload-files-and-directories) and inspect all the files inside. Inspect what is new, and what still persists after logout.
 
 There will be some false positive results since the regular expressions are not perfect. I prefer to use `rabin2` over `strings` because it can read Unicode characters.
 
